@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="mrc">
   <head>
     <title>New Sails App</title>
 
@@ -10,6 +10,7 @@
 	<script src="/js/dependencies/angular.min.js"></script>
 	<script src="/js/angular-resource.min.js"></script>
 	<script src="/js/angular-route.min.js"></script>
+	<script src="/js/app/app.js"></script>
 	<script src="/js/json3.min.js"></script>
 	<!--SCRIPTS END-->
      <!--STYLES-->
@@ -21,6 +22,7 @@
   </head>
 
   <body>
+    <%- partial('navigation') %>
     <%- body %>
 
   </body>
