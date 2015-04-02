@@ -1,0 +1,26 @@
+{
+  "name": "Maple River Communications",
+  "version": "0.0.1",
+  "authors": [
+    "Kenny Lindley <kenny@lindleys.org>"
+  ],
+  "description": "Website for Maple River Communications",
+  "main": "app.js",
+  "keywords": [
+    "wisp",
+    "maple",
+    "river",
+    "communications",
+    "wireless",
+    "provider"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
