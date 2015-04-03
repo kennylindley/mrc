@@ -4,7 +4,7 @@ div.letterhead {
 	background-image: url(/images/letterhead.png);
 };
 
-#content {
+div.content {
 	margin-left: auto;
 	margin-right: auto;
 	width: 650px;
