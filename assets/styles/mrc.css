@@ -1,14 +1,14 @@
-div.letterhead {
-	height:207px;
-	width: 650px;
-	background-image: url(/images/letterhead.png);
-};
-
 div.content {
 	margin-left: auto;
 	margin-right: auto;
 	width: 650px;
 	
+}
+
+div.letterhead {
+	height:207px;
+	width: 650px;
+	background-image: url(/images/letterhead.png);
 }
 
 textarea {
