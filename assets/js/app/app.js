@@ -4,24 +4,30 @@ mrcApp.config(['$routeProvider',
 	function($routeProvider) {
 		$routeProvider.
 			when('/about-us', {
-				template: 'templates/about-us.html'
+				templateUrl: 'templates/about-us.html',
+				title: 'Maple River Communications - About Us'
 			}).
 			when('/our-network', {
-				template: 'templates/our-network.html'
+				templateUrl: 'templates/our-network.html',
+				title: 'Maple River Communications - Our Network'
 			}).
 			when('/sales-and-pricing', {
-				template: 'templates/sales-and-pricing.html'
+				templateUrl: 'templates/sales-and-pricing.html',
+				title: 'Maple River Communications - Sales and Pricing'
 			}).
 			when('/contact-us', {
-				template: 'templates/contact-us.html',
+				templateUrl: 'templates/contact-us.html',
+				title: 'Maple River Communications - Contact Us',
 				controller: 'ContactController'
 			}).
 			when('/support', {
-				template: 'templates/support.html',
+				templateUrl: 'templates/support.html',
+				title: 'Maple River Communications - Support',
 				controller: 'SupportController'
 			}).
 			otherwise({
-				template: 'templates/main.html'
+				templateUrl: 'templates/main.html',
+				title: 'Maple River Communications - Home'
 			});
 	}
 ]);
