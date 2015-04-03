@@ -1,0 +1,16 @@
+<!--templates/support.html-->
+<p>Having troubles with your internet connection?</p>
+<p>Here are some ways you can get help:</p>
+<ul>
+	<li><p>Call our office at 701-347-0089 and open a ticket, which will then be sent to the technician that is assigned to your account. If you call after hours or on weekends you will get after-hour support. After-hour support will assist with trouble-shooting the problem. If a solution isn’t found, a ticket will be forwarded to the technician assigned to your account.</p></li>
+	<li><p>Email us at support@maplerivercom.com. If you email this address, a ticket will automatically be opened and you will get an auto email reply confirming that a ticket was opened. Email updates will be sent to you as the ticket is being worked on.</p></li>
+	<li><p> If you experience an internet outage you can email nointernet@maplerivercom.com and the ticket immediately is given a “No Connection” status and sent to our technicians.</p></li>
+	<form ng-submit="processSupport()">
+		<label for="existing-customer">Existing customer:</label><input value="yes" type="radio" ng-model="formData.existing" name="existing-customer" />Yes <input value="no" type="radio" ng-model="formData.existing" name="existing-customer" />No <br \>
+		<label for="customer-name">Your Name:</label><input type="text" ng-model="formData.customerName" name="customer-name" /><br \>
+		<label for="phone-number">Your Phone Number:</label><input type="tel" ng-model="formData.phoneNumber" name="phone-number" /><br \>
+		<label for="email-address">Your E-mail Address:</label><input type="email" ng-model="formData.email" name="email-address" /><br \>
+		<label for="pref-contact">Preferred Contact Method:</label><input value="yes" type="radio" ng-model="formData.prefContact" name="pref-contact" />email <input value="phone" type="radio" ng-model="formData.prefContact" name="pref-contact" />Phone <br \>
+		<label for="message">Message/comment</label><br \>
+		<textarea name="message" ng-model="formData.message"></textarea>
+</ul>
