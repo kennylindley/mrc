@@ -16,7 +16,7 @@ mrcApp.config(['$routeProvider',
 				template: 'templates/contact-us.html',
 				controller: 'ContactController'
 			}).
-			when('support', {
+			when('/support', {
 				template: 'templates/support.html',
 				controller: 'SupportController'
 			}).
